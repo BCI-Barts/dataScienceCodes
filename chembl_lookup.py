@@ -4,6 +4,11 @@ import pandas as pd
 # Note: this is organism independent
 #-------------------------------------
 # there is a loose search on human only results
+# trys to query the chembl database for
+# molecules that pair with a gene target
+# results are returned for molecules 
+# that have 85% similarity to oneanother
+# this threshold assumes similar activity
 #-------------------------------------
 #genes=pd.read_csv("gene_names.txt")
 #---------------------------------------
